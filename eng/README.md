@@ -1,11 +1,11 @@
 # Civic Elevator Weather App
 
-Your task is to take this stubbed out weather alert application and make it do the following:
+Your task is to take this stubbed out weather alert web application and make it do the following:
 
-- On page load, pull a JSON data stream from the `/data` endpoint
+- On page load, fire a Javascript function to pull a JSON data stream from the `/data` endpoint
 - Render each element of the `features` array in the `/data` payload as a table on the page
 - Add event handlers to automatically refresh the data when the state dropdown selected value changes
-- Make the tests pass
+- Make the tests in `app_test.rb` pass
 
 ## Deliverable
 
@@ -17,7 +17,9 @@ You should submit the following:
 
 ## Notes
 
-The application is written in Ruby, using the [Sinatra](http://sinatrarb.com/) framework. It has two endpoints: `/`, the root, and `/data`, which returns the results of a weather.gov API call. You must have a working Ruby development environment on your local workstation to run the web application.
+The web application backend is written in Ruby, using the [Sinatra](http://sinatrarb.com/) framework. It has two endpoints: `/`, the root, and `/data`, which returns the results of a weather.gov API call. You may use any flavor of Javascript, as well as any supporting libraries, that you prefer.
+
+You must have a working Ruby development environment on your local workstation to run the web application.
 
 To run the application:
 
@@ -34,7 +36,7 @@ ruby app_test.rb
 
 If you have questions about the exercise, please email `recruiting@civicelevator.com`. We'll respond as quickly as we can.
 
-You are welcome to spend as much time on this as you want; however, our intention with this is not to see a perfect, production-ready application. We're looking for evidence that you knwow how to write code, can follow directions, and make intelligent decisions when given the opportunity. You should be able to complete this within the span of a few hours.
+You are welcome to spend as much time on this as you want; however, our intention with this is not to see a perfect, production-ready application. We're looking for evidence that you know how to write code, can follow directions, and make intelligent decisions when given the opportunity. You should be able to complete this within the span of a few hours.
 
 We will evaluate your response based on a rubric that assesses:
 

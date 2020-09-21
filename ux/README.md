@@ -1,14 +1,14 @@
 # Civic Elevator Status Page
 
-Your task is to design a status dashboard for a system that has three primary components:
+Your task is to design a status dashboard for a system that has three components:
 
-- web application interface that displays weather alerts
-- a third-party data source that the application reads from on a 30 minute interval
+- web application that displays weather alerts
+- third-party data source that the application reads from on a 30 minute interval
 - backend data processing and analytics services
 
 Each component operates independently from the others, and can exist in one of three states: available, degraded, or unavailable.
 
-We've conducted a small amount of user research among potential users, and they've identified these possible features:
+We've conducted a small amount of user research among potential users, and they've identified these features as ones they would find valuable:
 
 - subscribe to alerts when any component changes from "available" to another state
 - share a link to an incident (an incident is a specific instance where a component is not in the "available" state)
@@ -25,10 +25,10 @@ In the course of our research, users suggested we review existing status page im
 
 You should create the following:
 
-1. A one or more rough wireframes showing the components of the status page, their layout, and relationship to each other. Highlight any interactivity or other affordances.
-2. A written description of your work, including a list of metrics you would use to analyze the performance of the page, and 2 or 3 ideas you'd like to test on the page.
+1. A one or more rough wireframes showing the components of the status page, their layout, and relationship to each other. Please call out any interactivity or other affordances.
+2. A written description of your work, including a list of metrics you would use to analyze the performance of the dashboard, and 2 or 3 ideas you'd like to test with real users.
 
-You may use any tool – paper and pencil, Figma, Sketch, Moqups, Illustrator, etc. – you'd like to create the wireframe, so long as you submit the final result as a PDF. The written description should not be more than one page or 500 words.
+You may use any tool – paper and pencil, Figma, Sketch, Moqups, Illustrator, etc. – that you prefer to create the wireframe, so long as you submit the final result as a PDF. The written description should not be more than one page or 500 words.
 
 ## Notes
 
